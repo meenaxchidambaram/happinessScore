@@ -14,7 +14,7 @@ le=data1["le"]
 def show_predict_page():
     st.title("Happiness Score Prediction")
     st.write("Prediction based on Alcohol Consumption and Annual Income($)")
-    st.write("Fill in the following details and know you're happiness score!")
+    st.write("Fill in the following details and know your happiness score!")
  
     continents={
         "South America", 
