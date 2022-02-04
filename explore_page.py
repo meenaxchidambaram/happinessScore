@@ -1,5 +1,5 @@
 import sklearn
-from turtle import color
+import turtle
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
