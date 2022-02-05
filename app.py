@@ -1,4 +1,4 @@
-import turtle
+from turtle import *
 import sklearn
 import streamlit as st
 import _tkinter 
