@@ -7,9 +7,9 @@ from tkinter import *
 from predict_page import show_predict_page
 from explore_page import explore
 
-page=st.sidebar.selectbox("Explore or Predict",("Predict","Explore"))
+pages=st.sidebar.selectbox("Explore or Predict",("Predict","Explore"))
 
-if page=="Predict":
+if pages=="Predict":
     show_predict_page()
-elif page=="Explore":
+elif pages=="Explore":
     explore()
